@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 name: CI/CD for Dockerized Flask App
 
 on:
@@ -63,6 +63,4 @@ jobs:
 
     - name: Image digest
       run: echo ${{ steps.build-and-publish.outputs.digest }}
-=======
 
->>>>>>> a9c10e96fb9d5b11fc8b9745e22732d3d7282e7e
