@@ -4,4 +4,4 @@ def test_home():
 
     assert response.status_code == 200
 
-    assert response.data == b'this is test!!'
+    assert response.data == b"Hello, World!"
